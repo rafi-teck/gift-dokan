@@ -41,20 +41,3 @@ export async function storeSet(key, value) {
   } catch (e) {
     console.error("Firestore set failed", key, e);
   }
-}// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyBLAWmALzkVwmb1bn8FN7R_Xwl4EZFYisk",
-  authDomain: "gift-dokan.firebaseapp.com",
-  projectId: "gift-dokan",
-  storageBucket: "gift-dokan.firebasestorage.app",
-  messagingSenderId: "711936897953",
-  appId: "1:711936897953:web:d8991d070133e3d51111e0"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);

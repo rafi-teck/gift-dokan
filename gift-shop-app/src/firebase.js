@@ -41,3 +41,4 @@ export async function storeSet(key, value) {
   } catch (e) {
     console.error("Firestore set failed", key, e);
   }
+}
